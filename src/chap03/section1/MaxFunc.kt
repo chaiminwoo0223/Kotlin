@@ -5,7 +5,6 @@ fun main() {
     val num1 = 10 // 지역 변수
     val num2 = 3 // 지역 변수
     val result: Int
-
     result = max(num1, num2)
     println(result)
 }

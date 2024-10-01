@@ -4,7 +4,6 @@ package chap03.section1
 fun main() {
     val name = "홍길동"
     val email = "hong@example.kr"
-
     add(name)
     add(name, email)
     add("둘리", "dooly@example.kr")

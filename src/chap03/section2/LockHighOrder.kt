@@ -10,7 +10,6 @@ fun main() {
     lock(reLock, { criticalFunc() })
     lock(reLock) { criticalFunc() }
     lock(reLock, ::criticalFunc)
-
     println(sharable)
 }
 

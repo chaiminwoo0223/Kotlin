@@ -2,6 +2,7 @@ package chap04.section1
 
 class MyClass
 
+// 다양한 자료형의 인자 받기
 fun main() {
     cases("Hello")
     cases(1)

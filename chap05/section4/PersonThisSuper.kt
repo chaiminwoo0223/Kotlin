@@ -16,7 +16,7 @@ class Developer : Person {
         println("[Developer] $firstName")
     }
 
-    constructor(firstName: String, age: Int) : super(firstName, age) {
+    constructor(firstName: String, age: Int): super(firstName, age) {
         println("[Developer] firstName: $firstName, age: $age")
     }
 }

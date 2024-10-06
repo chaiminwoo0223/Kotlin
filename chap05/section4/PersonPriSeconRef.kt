@@ -9,7 +9,7 @@ class Person2(firstName: String, out: Unit = println("[Primary Constructor] Para
     }
 
     // 부 생성자
-    constructor(firstName: String, age: Int, out: Unit = println("[Secondary Constructor] Parameter")) : this(firstName) {
+    constructor(firstName: String, age: Int, out: Unit = println("[Secondary Constructor] Parameter")): this(firstName) {
         println("[Secondary Constructor] Body: $firstName, $age")
     }
 }
